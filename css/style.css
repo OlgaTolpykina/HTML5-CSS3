@@ -101,6 +101,7 @@ body {
 
 .about-product-title {
     font-size: 30px;
+    margin: 0 0 30px 0;
     line-height: 36px;
     font-weight: 400;
     color: #445161;
