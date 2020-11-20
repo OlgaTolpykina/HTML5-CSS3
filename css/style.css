@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial;
 }
 
 .container {
@@ -14,7 +15,6 @@ body {
   box-sizing: border-box;
   background-color: #445161;
   color: #fff;
-  font-family: Arial;
 }
 
 .main-header:after {
@@ -74,5 +74,50 @@ body {
 }
 
 .content {
+  width: 1280px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
 
+.about-product {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #445161;
+}
+
+.about-product:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.about-product-wrp {
+
+}
+
+.about-product-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.about-product-content {
+  padding: 0 0 0 20px;
+  margin: 0 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.about-product-video {
+  display: block;
+  width: 430px;
+  min-height: 245px;
+  float: right;
+  background-color: #445161;
 }
