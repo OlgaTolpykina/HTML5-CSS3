@@ -168,6 +168,26 @@ body {
   background-repeat: no-repeat;
 }
 
+.screenshots {
+    width: 100%;
+    min-height: 487px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    color: #445161;
+
+}
+.screenshots_title {
+    margin: 0 0 35px 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.screenshots_box {
+    columns: 2;
+}
+
 .figure_box{
     margin: 0;
 }
