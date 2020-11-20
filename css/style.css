@@ -122,3 +122,49 @@ body {
   float: right;
   background-color: #445161;
 }
+
+.dignity{
+  width: 100%;
+  padding: 50px 50px 15px 50px;
+  background: #F5F5F5;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.dignity-title {
+  margin: 0 0 30px 0;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.dignity-list {
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.dignity-list-item {
+  list-style-type: none;
+  position: relative;
+  margin: 0 0 35px 0;
+}
+.dignity_list_item:before {
+  content: "";
+  display: block;
+  float: left;
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+  background-image: url('img/plus_square_dignity.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
