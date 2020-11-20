@@ -172,7 +172,6 @@ body {
     width: 100%;
     min-height: 487px;
     padding: 50px;
-    border: 1px solid black;
     box-sizing: border-box;
     color: #445161;
 
@@ -204,6 +203,7 @@ body {
     min-height: 150px;
     background-color: #445161;
 }
+
 .figcaption_box {
     float: right;
     width: 60%;
