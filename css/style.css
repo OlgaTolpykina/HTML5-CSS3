@@ -127,7 +127,6 @@ body {
   width: 100%;
   padding: 50px 50px 15px 50px;
   background: #F5F5F5;
-  border: 1px solid black;
   box-sizing: border-box;
 }
 
@@ -163,7 +162,7 @@ body {
   width: 32px;
   height: 32px;
   padding-right: 10px;
-  background-image: url('../img/plus_square_dignity.png');
+  background-image: url('img/plus_square_dignity.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
