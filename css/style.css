@@ -95,7 +95,7 @@ body {
 }
 
 .about-product-wrp {
-
+  float:left;
 }
 
 .about-product-title {
