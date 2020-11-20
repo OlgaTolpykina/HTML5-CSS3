@@ -163,7 +163,7 @@ body {
   width: 32px;
   height: 32px;
   padding-right: 10px;
-  background-image: url('img/plus_square_dignity.png');
+  background-image: url('../img/plus_square_dignity.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
