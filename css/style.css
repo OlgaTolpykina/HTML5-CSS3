@@ -167,3 +167,35 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.figure_box{
+    margin: 0;
+}
+.figure_box:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+.screenshots_img {
+    float: left;
+    display: block;
+    width: 200px;
+    min-height: 150px;
+    background-color: #445161;
+}
+.figcaption_box {
+    float: right;
+    width: 60%;
+}
+.figcaption_title {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.figcaption_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
