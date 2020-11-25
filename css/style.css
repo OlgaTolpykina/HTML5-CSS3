@@ -380,3 +380,128 @@ body {
   outline: none;
   cursor: pointer;
 }
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #445161;
+}
+
+.contacts-title {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.contacts-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+  margin: 0 46px 0 0;
+}
+
+.contacts-form input[type="text"],
+.contacts-form input[type="email"],
+.contacts-form textarea {
+    width: 500px;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color:  #ffffff;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.contacts-form input[type="text"]:hover,
+.contacts-form input[type="email"]:hover,
+.contacts-form textarea:hover {
+  background-color: #778899;
+  border-color: #ffffff;
+}
+
+.contacts-form input[type="text"]:hover::placeholder,
+.contacts-form input[type="email"]:hover::placeholder,
+.contacts-form textarea:hover::placeholder {
+  color: white;
+}
+
+.contacts-form textarea {
+  height: 170px;
+}
+
+input[placeholder],
+textarea[placeholder] {
+  font-family: Arial;
+  color:  #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.contacts-form input[type="submit"] {
+  width: 140px;
+  height: 40px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #445162;
+  text-align: center;
+}
+
+.contacts-form input[type="submit"]:hover {
+  background-color: #778899;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.contacts-data {
+  width: 240px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.contacts-data-link {
+  display: block;
+  margin: 0 0 15px 0;
+  padding: 0 0 0 30px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contacts-icons {
+  display: flex;
+  padding: 17px 0 0 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.contacts-net {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
