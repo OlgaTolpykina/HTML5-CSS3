@@ -55,8 +55,9 @@ body {
   display: block;
   width: 15px;
   height: 15px;
-  background-size: cover;
   position: absolute;
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
   top: 10px;
   left: -18px;
 }
