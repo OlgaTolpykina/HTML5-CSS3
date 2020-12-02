@@ -506,6 +506,8 @@ textarea[placeholder] {
 
 .contacts-data-link:nth-of-type(1)::before {
   content:"\f17e"
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
 }
 
 .contacts-icons {
