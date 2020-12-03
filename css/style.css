@@ -513,6 +513,11 @@ textarea[placeholder] {
   font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
 }
 
+.contacts-data-link:nth-of-type(2)::before {
+  content: "img/icq-icon.png";
+  font-size: 24px;
+}
+
 .contacts-icons {
   display: flex;
   padding: 17px 0 0 0;
