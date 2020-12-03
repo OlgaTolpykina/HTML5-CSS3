@@ -515,6 +515,17 @@ textarea[placeholder] {
   background-image: url('../img/icq_icon.png');
 }
 
+.contacts-data-link:nth-of-type(3)::before {
+  content: "\f1fa";
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+}
+
+.contacts-data-link:nth-of-type(4)::before {
+  background-image: url('../img/phone_icon.png');
+}
+
 .contacts-icons {
   display: flex;
   padding: 17px 0 0 0;
