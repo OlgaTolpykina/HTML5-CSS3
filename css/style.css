@@ -514,7 +514,7 @@ textarea[placeholder] {
 }
 
 .contacts-data-link:nth-of-type(2)::before {
-  content: "../img/icq-icon.png";
+  content: "img/icq-icon.png";
   font-size: 24px;
 }
 
