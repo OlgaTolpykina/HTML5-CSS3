@@ -478,8 +478,6 @@ textarea[placeholder] {
 
 .contacts-data {
   width: 240px;
-  border: 1px solid black;
-  box-sizing: border-box;
   color: #ffffff;
 }
 
@@ -531,17 +529,13 @@ textarea[placeholder] {
 .contacts-icons {
   display: flex;
   padding: 17px 0 0 0;
-  border: 1px solid black;
-  box-sizing: border-box;
   justify-content: space-between;
 }
 
 .contacts-net {
   display: block;
   width: 46px;
-  height: 44px;
-  border: 1px solid black;
-  box-sizing: border-box;
+  height: 42px;
 }
 
 .contacts-net:nth-of-type(1) {
@@ -561,5 +555,5 @@ textarea[placeholder] {
 }
 
 .contacts-net:nth-of-type(5) {
-  background: url('../img/social_buttons_338.png') -196px;
+  background: url('../img/social_buttons_338.png') -195px;
 }
