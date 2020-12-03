@@ -493,6 +493,22 @@ textarea[placeholder] {
   color: #ffffff;
 }
 
+.contacts-data-link::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  position: absolute;
+  top: 1px;
+  left: 8px;
+}
+
+.contacts-data-link:nth-of-type(1)::before {
+  content: "\f17e"
+}
+
 .contacts-icons {
   display: flex;
   padding: 17px 0 0 0;
