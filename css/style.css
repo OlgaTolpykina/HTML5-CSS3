@@ -502,12 +502,13 @@ textarea[placeholder] {
   box-sizing: border-box;
   border: 1px solid black;
   position: absolute;
-  top: 1px;
+  top: -2px;
   left: 2px;
 }
 
 .contacts-data-link:nth-of-type(1)::before {
   content: "\f17e";
+  font-size: 24px;
   font-weight: 900;
   font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
 }
