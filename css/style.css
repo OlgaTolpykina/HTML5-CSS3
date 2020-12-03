@@ -514,7 +514,7 @@ textarea[placeholder] {
 }
 
 .contacts-data-link:nth-of-type(2)::before {
-  background-image: image('../img/icq_icon.png');
+  background-image: url('../img/icq_icon.png');
 }
 
 .contacts-icons {
