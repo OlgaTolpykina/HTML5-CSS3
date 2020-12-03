@@ -543,9 +543,21 @@ textarea[placeholder] {
 }
 
 .contacts-net:nth-of-type(1) {
-  background-image: url('../img/social_buttons_338.png');
+  background: url('../img/social_buttons_338.png');
 }
 
 .contacts-net:nth-of-type(2) {
-  background-image: url('../img/social_buttons_338.png');
+  background: url('../img/social_buttons_338.png') -50px;
+}
+
+.contacts-net:nth-of-type(3) {
+  background: url('../img/social_buttons_338.png') -100px;
+}
+
+.contacts-net:nth-of-type(4) {
+  background: url('../img/social_buttons_338.png') -150px;
+}
+
+.contacts-net:nth-of-type(5) {
+  background: url('../img/social_buttons_338.png') -200px;
 }
