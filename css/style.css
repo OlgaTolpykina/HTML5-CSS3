@@ -557,3 +557,13 @@ textarea[placeholder] {
 .contacts-net:nth-of-type(5) {
   background: url('../img/social_buttons_338.png') -195px;
 }
+
+.copyright {
+  background-color: #f5f5f5;
+}
+
+.copyright-txt {
+  text-align: center;
+  font-size: 12px;
+  color: #445162;
+}
