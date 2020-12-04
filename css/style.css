@@ -352,15 +352,15 @@ body {
 }
 
 .price-item-cost {
-  padding: 18px 0 18px 0;
+  padding: 18px;
   font-size: 40px;
   background-color: #fff;
   color: #445162;
 }
 
 .price-item-list {
-  padding: 19px 0 21px 20px;
-  margin: 0;
+  padding: 0 0 0 20px;
+  margin: 10px 0 0 0;
   list-style-position: inside;
   font-size: 14px;
   line-height: 24px;
@@ -370,7 +370,7 @@ body {
 
 .price-form input[type="submit"] {
   display: block;
-  margin: 0 auto;
+  margin: 10 auto 0 auto;
   width: 260px;
   padding: 14px 111px;
   font-size: 18px;
