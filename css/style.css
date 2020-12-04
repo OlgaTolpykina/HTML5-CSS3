@@ -370,7 +370,7 @@ body {
 
 .price-form input[type="submit"] {
   display: block;
-  margin: 10 auto 0 auto;
+  margin: 10px auto 0 auto;
   width: 260px;
   padding: 14px 111px;
   font-size: 18px;
