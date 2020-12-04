@@ -488,6 +488,7 @@ textarea[placeholder] {
   text-transform: uppercase;
   color: #445162;
   text-align: center;
+  cursor: pointer;
 }
 
 .contacts-form input[type="submit"]:hover {
