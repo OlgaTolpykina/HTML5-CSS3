@@ -552,8 +552,8 @@ textarea[placeholder] {
 
 .contacts-icons {
   display: flex;
-  padding: 17px 0 0 0;
-  justify-content: space-between;
+  padding: 0;
+  margin: 17px 0 0 0;
 }
 
 .contacts-net {
@@ -575,7 +575,7 @@ textarea[placeholder] {
 }
 
 .contacts-net:nth-of-type(4) {
-  background: url('../img/social_buttons_338.png') -148px;
+  background: url('../img/social_buttons_338.png') -147px;
 }
 
 .contacts-net:nth-of-type(5) {
