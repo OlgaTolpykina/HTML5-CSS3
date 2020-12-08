@@ -368,28 +368,6 @@ body {
   box-sizing: border-box;
 }
 
-.price-form input[type="submit"] {
-  display: block;
-  margin: 10px auto 0 auto;
-  width: 260px;
-  padding: 14px 111px;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #445161;
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.price-form input[type="submit"]:hover {
-  background-color: #778899;
-  color: #ffffff;
-  border-color: #ffffff;
-}
-
 .price-item-btn {
   display: block;
   margin: 0 auto;
