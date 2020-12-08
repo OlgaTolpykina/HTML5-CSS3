@@ -407,6 +407,12 @@ body {
   cursor: pointer;
 }
 
+.price-item-btn:hover {
+  background-color: #778899;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
 .contacts {
   display: flex;
   flex-wrap: wrap;
